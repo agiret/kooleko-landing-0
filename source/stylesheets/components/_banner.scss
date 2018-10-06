@@ -10,9 +10,10 @@
 }
 .banner h1 {
   font-size: 72px;
-  font-color: $gray;
+  color: $hight-gray;
   // font-weight: bold;
   text-shadow: 0px 0.5px rgba(0, 0, 0, 0.2);
+  // z-index: +1;
 }
 .banner p {
   font-size: 25px;
