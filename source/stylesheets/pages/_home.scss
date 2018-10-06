@@ -1,3 +1,22 @@
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+  color: $my-green;
+}
+
+h4 {
+  color: $my-green;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 20px;
+}
+
 section.what {
   background-color: $verylight-gray;
   .what-text {
