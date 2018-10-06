@@ -11,8 +11,25 @@
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
+.logo-name {
+  display: flex;
+  align-items: center;
+  .navbar-wagon-brand img {
+    height: 50px;
+  }
+  #project-logo-name {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #616668;
+  }
+  #project-logo-name:hover {
+    // color: $my-green;
+    text-decoration: none;
+  }
 }
 
 /* User Avatar */
@@ -38,6 +55,7 @@
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
+  color: $gray;
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
