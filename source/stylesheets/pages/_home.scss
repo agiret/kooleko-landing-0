@@ -1,20 +1,31 @@
-// #home {
-//   background-color: #D23333;
-//   color: white;
-//   height: 100vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-around;
-//   text-align: center;
-//   p {
-//     margin-top: 1.5em;
-//   }
-//   a {
-//     color: rgba(0,0,0,0.4);
-//     font-weight: bold;
-//     font-size: 16px;
-//   }
-// }
 section.what {
   background-color: $verylight-gray;
+}
+
+section.how {
+  padding-top: 10px;
+  text-align: center;
+  .info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    p {
+      text-align: center;
+      }
+
+  }
+  .info-card {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    height: 600px;
+    img {
+      height: 150px;
+      margin: 10px;
+    }
+
+  }
 }
