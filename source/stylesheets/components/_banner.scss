@@ -22,3 +22,24 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
+
+#mc_embed_signup {
+  input.email {
+    font-family: Dosis,Helvetica,sans-serif !important;
+    font-size: 20px !important;
+    font-weight: lighter !important;
+    border: 1px solid $light-gray !important;
+    border-radius: 2px !important;
+  }
+  input.button {
+    border: none;
+    font-weight: lighter;
+    font-size: 25px;
+    // color: #fff;
+    background-color: #01CC7D;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
+    padding: 10px 16px;
+    line-height: 1.3333333;
+    border-radius: 2px;
+  }
+}
