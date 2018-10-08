@@ -48,4 +48,8 @@
     background-color: #00B06C;
     opacity: 1.2;
   }
+  *::placeholder {
+    /* modern browser */
+    color: #D4D4D4;
+  }
 }

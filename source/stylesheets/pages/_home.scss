@@ -61,3 +61,47 @@ section.how {
 
   }
 }
+
+section.apply {
+  background-color: $my-green;
+  color: white;
+  padding: 50px;
+  h4 {
+    color: white;
+    text-align: center;
+  }
+  #mc_embed_signup {
+    background-color: $my-green;
+    input.email {
+      // font-family: Dosis,Helvetica,sans-serif !important;
+      // font-size: 20px !important;
+      // font-weight: lighter !important;
+      // border: 1px solid $light-gray !important;
+      // border-radius: 2px !important;
+      // height: 53px !important;
+      border-color: #00B06C !important;
+      color: white !important;
+      background-color: $my-green !important;
+    }
+    input.button {
+      border: none;
+      font-weight: lighter;
+      font-size: 25px;
+      color: $my-green;
+      background-color: white;
+      // box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
+      padding: 10px 16px;
+      line-height: 1.3333333;
+      border-radius: 2px;
+      height: 53px;
+    }
+    input.button:hover {
+      background-color: $light-gray;
+      opacity: 1.2;
+    }
+    *::placeholder {
+    /* modern browser */
+    color: #00B06C;
+    }
+  }
+}
