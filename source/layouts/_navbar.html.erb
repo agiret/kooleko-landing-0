@@ -1,17 +1,17 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <div class="logo-name">
-    <a href="/" class="navbar-wagon-brand">
+    <a href="<%= data.parameters.root_path_prod %>" class="navbar-wagon-brand">
       <%= image_tag "logo_gris.png", id: "logo" %>
     </a>
     <!-- <p id="project-logo-name"><%= data.parameters.project_name %></p> -->
-    <a href="/" id="project-logo-name"><%= data.parameters.project_name %></a>
+    <a href="<%= data.parameters.root_path_prod %>" id="project-logo-name"><%= data.parameters.project_name %></a>
   </div>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <a href="/#what-section" class="navbar-wagon-item navbar-wagon-link">C'est quoi ?</a>
-    <a href="/#share-section" class="navbar-wagon-item navbar-wagon-link">Partager</a>
+    <a href="<%= data.parameters.root_path_prod %>/#what-section" class="navbar-wagon-item navbar-wagon-link">C'est quoi ?</a>
+    <a href="<%= data.parameters.root_path_prod %>/#share-section" class="navbar-wagon-item navbar-wagon-link">Partager</a>
     <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a> -->
 
     <!-- Profile picture with dropdown list -->
@@ -32,8 +32,8 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="/#what-section">C'est quoi ?</a></li>
-        <li><a href="/#share-section">Partager</a></li>
+        <li><a href="<%= data.parameters.root_path_prod %>/#what-section">C'est quoi ?</a></li>
+        <li><a href="<%= data.parameters.root_path_prod %>/#share-section">Partager</a></li>
       </ul>
     </div>
   </div>
