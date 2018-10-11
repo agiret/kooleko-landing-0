@@ -1,8 +1,8 @@
 .footer {
   background: $light-gray;
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
   padding: 10px 50px;
   color: rgba(0,0,0,0.3);
@@ -11,8 +11,8 @@
   }
 }
 .footer-links {
-  // display: flex;
-  // align-items: center;
+  display: flex;
+  align-items: center;
 }
 .footer-links a {
   color: black;
