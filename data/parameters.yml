@@ -1,3 +1,4 @@
 project_name: 'ecojuju'
 root_path_prod: 'https://agiret.github.io/bob-logement-landing-0'
 root_path_dev: '/'
+share_link: 'https%3A%2F%2Fagiret.github.io/bob-logement-landing-0'
