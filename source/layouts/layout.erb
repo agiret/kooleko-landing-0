@@ -7,6 +7,25 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
+    <!-- Google result text -->
+    <title><%= data.parameters.project_name %> | Meilleur assistant aux économies d'énergie</title>
+    <!-- Google result description -->
+    <meta name="description" content="<%= data.parameters.project_name %> est une plateforme gratuite qui utilise les données et l'intelligence artificielle afin de fournir des conseils ultra personnalisés pour réduire tes factures et améliorer ton confort.">
+
+    <!-- For Facebook -->
+    <meta property="og:title" content="<%= data.parameters.project_name %> - Le meilleur assistant aux économies d'énergie">
+    <meta property="og:image" content="facebook-card.png">
+    <meta property="og:description" content="<%= data.parameters.project_name %> est une plateforme gratuite qui utilise les données et l'intelligence artificielle afin de fournir des conseils ultra personnalisés pour réduire tes factures et améliorer ton confort.">
+    <meta property="og:site_name" content="<%= data.parameters.project_name %>"/>
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= data.parameters.twitter %>">
+    <meta name="twitter:title" content="<%= data.parameters.project_name %> - Le meilleur assistant aux économies d'énergie">
+    <meta name="twitter:description" content="<%= data.parameters.project_name %> est une plateforme gratuite qui utilise les données et l'intelligence artificielle afin de fournir des conseils ultra personnalisés pour réduire tes factures et améliorer ton confort.">
+    <meta name="twitter:creator" content="<%= data.parameters.twitter %>">
+    <meta name="twitter:image:src" content="images/twitter-card.png">
+
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
