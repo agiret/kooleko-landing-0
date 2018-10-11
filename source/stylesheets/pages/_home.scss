@@ -72,6 +72,9 @@ section.apply {
   }
   #mc_embed_signup {
     background-color: $my-green;
+    #mc_embed_signup_scroll {
+      text-align: center !important;
+    }
     input.email {
       // font-family: Dosis,Helvetica,sans-serif !important;
       // font-size: 20px !important;
