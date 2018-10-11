@@ -1,12 +1,13 @@
 .banner {
   // color: white;
   text-align: center;
-  height: calc(100vh - 70px - 186px);
+  height: calc(100vh - 70px - 158px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  min-height: 450px;
   background-size: cover !important;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .cta {
     text-align: left;
   }
@@ -21,7 +22,7 @@
   // }
 }
 .banner h1 {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   font-size: 72px;
   color: $hight-gray;
   // font-weight: bold;
