@@ -4,20 +4,21 @@
   height: calc(100vh - 70px - 186px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   .cta {
     text-align: left;
   }
-  .content-center-align {
-    display: flex;
-    align-items: center;
+  // .content-center-align {
+  //   display: flex;
+  //   align-items: center;
     // justify-content: center;
     .img-banner {
       width: 350px;
+      padding-top: 20%;
     }
-  }
+  // }
 }
 .banner h1 {
   padding-bottom: 100px;
