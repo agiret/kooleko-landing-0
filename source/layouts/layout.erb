@@ -35,5 +35,9 @@
     <%= partial "layouts/navbar" %>
     <%= yield %>
     <%= partial "layouts/footer" %>   <!-- inject layouts/_footer.html.erb -->
+
+    <!-- Images charged and display=none : it's for middleman build... -->
+    <%= image_tag "facebook-card.jpg", class: "img-hiden" %>
+    <%= image_tag "twitter-card.png", class: "img-hiden" %>
   </body>
 </html>
