@@ -31,8 +31,11 @@ strong {
   display: none;
 }
 
-section.what {
+.gray-section {
   background-color: $verylight-gray;
+}
+
+section.what {
   .what-text {
     padding: 30px;
   }
@@ -111,6 +114,16 @@ section.apply {
     color: #00B06C;
     }
   }
+}
+
+section.examples {
+  padding-bottom: 25px;
+  li {
+    margin-bottom: 10px;
+  }
+  // li:not(:last-child) {
+  //   margin-bottom: 10px;
+  // }
 }
 
 section.share {
