@@ -1,5 +1,6 @@
 .banner {
   // color: white;
+  // background: url('https://www.pexels.com/photo/white-brick-wall-1092364/') no-repeat center top;
   text-align: center;
   height: calc(100vh - 70px - 158px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -24,7 +25,8 @@
 .banner h1 {
   padding-bottom: 30px;
   font-size: 72px;
-  color: $hight-gray;
+  // color: $hight-gray;
+  color: white;
   font-weight: bold;
   text-shadow: 0px 0.5px rgba(0, 0, 0, 0.2);
 }
@@ -40,6 +42,7 @@
 }
 
 #mc_embed_signup {
+  background-color: rgba(0, 0, 0, 0.0) !important;
   #mc_embed_signup_scroll {
     text-align: left !important;
   }
@@ -47,9 +50,11 @@
     font-family: Dosis,Helvetica,sans-serif !important;
     font-size: 20px !important;
     font-weight: lighter !important;
-    border: 1px solid $light-gray !important;
+    // border: 1px solid $light-gray !important;
+    border: 1px solid rgba(255, 255, 255,  0.2) !important;
     border-radius: 2px !important;
     height: 53px !important;
+    background-color: rgba(255, 255, 255,  0.2) !important;
   }
   input.button {
     border: none;
