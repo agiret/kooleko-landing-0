@@ -2,5 +2,5 @@ project_name: 'kooleko' # à saisir ici en minuscule
 root_path_prod: 'http://www.kooleko.com'
 root_path_dev: '/'
 share_link: 'http%3A%2F%2Fwww.kooleko.com'
-twitter: '%40kooleko_'
+twitter: '%40_kooleko'
 linkedin: '%40kooleko'
