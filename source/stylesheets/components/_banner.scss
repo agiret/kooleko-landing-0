@@ -4,7 +4,7 @@
   text-align: center;
   height: calc(100vh - 158px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  min-height: 450px;
+  min-height: 600px;
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -86,20 +86,48 @@
   }
 }
 .img-box {
-  position: absolute;
+  position: relative;
   .phone-box {
+    position: absolute;
     position: relative;
-  }
-  .sms {
-    position: relative;
-    color: white;
-    background-color: rgba(252, 74, 26, 0.82);
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07), 0 2px 10px 0 rgba(0, 0, 0, 0.03);
-    border-radius: 6px;
-    padding: 10px;
-    p {
-      font-size: 18px;
+    left: 10%;
+    #phone {
+      position: absolute;
+      left: 0px;
+    }
+    .sms {
+      text-align: left;
+      position: absolute;
+      position: relative;
+      left:60px;
+      top: 100px;
+      width: 200px;
+      color: white;
+      // background-color: rgba(252, 74, 26, 0.82);
+      background-color: $my-vermillon-l;
+      // box-shadow: 0 2px 3px 0 rgba(0, 0%, 0%, 0.2);
+      border: 0px;
+      border-radius: 6px;
+      padding: 10px;
+      z-index: +1;
+      p {
+        font-size: 14px;
+      }
     }
   }
 }
 
+.tri-right.right-in:after{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -23px;
+  right: auto;
+  top: auto;
+  bottom: 15px;
+  border: 12px solid;
+  border-radius: 2px;
+  border-color: transparent $my-vermillon-l $my-vermillon-l transparent;
+  // border-color: transparent rgba(252, 74, 26, 0.82) rgba(252, 74, 26, 0.82) transparent;
+}
