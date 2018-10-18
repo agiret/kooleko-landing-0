@@ -1,7 +1,7 @@
 /* Main navbar */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background: none;
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
@@ -24,7 +24,8 @@
     margin-bottom: 0px;
     font-weight: bold;
     cursor: pointer;
-    color: #616668;
+    // color: #616668;
+    color: white;
   }
   #project-logo-name:hover {
     // color: $my-green;
@@ -54,13 +55,13 @@
 
 /* Navbar link */
 .navbar-wagon-link {
-  // color: #616668;
-  color: $gray;
+  // color: $gray;
+  color: white;
   font-size: 16px;
   font-weight: lighter;
 }
 .navbar-wagon-link:hover {
-  color: $my-green;
+  color: $my-sunshine;
   text-decoration: none;
 }
 

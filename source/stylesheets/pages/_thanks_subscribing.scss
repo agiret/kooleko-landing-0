@@ -1,27 +1,40 @@
+.big-box {
+  height: calc(100vh);
+  min-height: calc(350px + 400px);
+}
+
 .thanks-box {
+  background-color: $my-fresh;
   text-align: center;
-  height: calc(100vh - 70px);
-  min-height: 450px;
+
+  height: 350px;
   background-size: cover !important;
-  padding-top: 30px;
+  padding-top: 120px;
+  margin-top: -70px;
+  color: white;
+  .ok {
+    padding-bottom: 50px;
+  }
 }
 .fa-check-circle {
-  color: $my-green;
+  color: $my-sunshine;
   font-size: 56px;
 }
-.ok {
-  padding-bottom: 100px;
+.share {
+  padding-top: 30px;
+  min-height: 400px;
+  text-align: center;
 }
 
 .share-links {
   font-size: 72px;
   padding-top: 25px;
   i {
-    color: $hight-gray;
+    color: $my-sunshine;
     padding-right: 20px;
     padding-left: 20px;
   }
   i:hover {
-    color: $my-green;
+    color: $my-sunshine-d;
   }
 }
