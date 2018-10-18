@@ -96,20 +96,22 @@
       left: 0px;
     }
     .sms {
+      line-height:15px;
       text-align: left;
       position: absolute;
       position: relative;
       left:60px;
-      top: 100px;
+      top: 90px;
       width: 200px;
       color: white;
       // background-color: rgba(252, 74, 26, 0.82);
       background-color: $my-vermillon-l;
       // box-shadow: 0 2px 3px 0 rgba(0, 0%, 0%, 0.2);
       border: 0px;
-      border-radius: 6px;
-      padding: 10px;
-      z-index: +1;
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 10px;
+      // z-index: +1;
       p {
         font-size: 14px;
       }
