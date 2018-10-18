@@ -85,3 +85,21 @@
     color: $my-fresh;
   }
 }
+.img-box {
+  position: absolute;
+  .phone-box {
+    position: relative;
+  }
+  .sms {
+    position: relative;
+    color: white;
+    background-color: rgba(252, 74, 26, 0.82);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07), 0 2px 10px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 10px;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
