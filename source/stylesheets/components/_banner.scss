@@ -2,7 +2,7 @@
   // color: white;
   background-color: $my-fresh;
   text-align: center;
-  height: calc(100vh - 158px);
+  height: calc(100vh - 0px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   min-height: 600px;
   background-size: cover !important;
@@ -43,13 +43,13 @@
 .banner p {
   font-size: 25px;
   font-weight: lighter;
-  // color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
 }
 
 #mc_embed_signup {
   background-color: rgba(0, 0, 0, 0.0) !important;
+  padding-top: 15px;
   #mc_embed_signup_scroll {
     text-align: left !important;
   }
@@ -110,7 +110,7 @@
       background-color: $my-vermillon-l;
       // box-shadow: 0 2px 3px 0 rgba(0, 0%, 0%, 0.2);
       border: 0px;
-      border-radius: 8px;
+      border-radius: 20px;
       padding: 8px;
       margin-bottom: 10px;
       // z-index: +1;

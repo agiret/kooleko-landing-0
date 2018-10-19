@@ -32,7 +32,7 @@ strong {
 }
 
 .gray-section {
-  background-color: $verylight-gray;
+  background-color: $my-clean-l;
 }
 
 section.what {
@@ -42,7 +42,9 @@ section.what {
 }
 
 section.how {
-  padding-top: 10px;
+  background-color: $verylight-gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   .info-text {
     // display: flex;
@@ -55,7 +57,7 @@ section.how {
 
   }
   .info-card {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
@@ -141,4 +143,10 @@ section.examples {
   border-left: 6px solid $my-clean-l;
   border-radius: 2px;
   padding: 5px 10px 1px 10px;
+}
+
+.annotation {
+  font-weight: lighter;
+  font-size: 12px;
+  opacity: 0.7;
 }
