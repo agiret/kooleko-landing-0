@@ -7,9 +7,9 @@
   background-color: $my-fresh;
   text-align: center;
 
-  height: 350px;
+  height: 300px;
   background-size: cover !important;
-  padding-top: 120px;
+  padding-top: 100px;
   margin-top: -70px;
   color: white;
   .ok {
@@ -20,15 +20,26 @@
   color: $my-sunshine;
   font-size: 56px;
 }
+
 .share {
-  padding-top: 30px;
+  padding-top: 0px;
+  padding-bottom: 50px;
   min-height: 400px;
-  text-align: center;
+  .img-share {
+    // text-align: center;
+    height: 150px;
+    margin: 10px;
+  }
+}
+
+.fa-share-alt {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .share-links {
   font-size: 72px;
-  padding-top: 25px;
+  padding-top: 10px;
   i {
     color: $my-sunshine;
     padding-right: 20px;
@@ -38,3 +49,5 @@
     color: $my-sunshine-d;
   }
 }
+
+

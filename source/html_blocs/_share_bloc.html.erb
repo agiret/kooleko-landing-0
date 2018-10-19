@@ -1,12 +1,14 @@
 <div class="share-bloc">
   <div class="row">
-    <div class="col-xs-12">
-      <p>Passe le mot sur tes réseaux préférés :</p>
-      <i><h4>"Je fais des économies d'énergie et je réduis mes factures avec @<%= data.parameters.project_name %>. Rejoignez-moi !"</h4></i>
+    <div class="col-xs-12 col-sm-offset-2 col-sm-8 text-justify">
+      <p><i class="fas fa-share-alt"></i> Passe le mot sur tes réseaux préférés :</p>
+      <div class="citation">
+        <p>"Je fais des économies d'énergie et je réduis mes factures avec @<%= data.parameters.project_name %>. Rejoignez-moi !"</p>
+      </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-xs-12 col-sm-offset-2 col-sm-8 text-center">
       <div class="share-links">
         <a href="https://www.facebook.com/sharer.php?u=<%= data.parameters.share_link %>" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://twitter.com/intent/tweet?url=<%= data.parameters.share_link %>&text=Je+fais+des+économies+d'énergie+et+je+réduis+mes+factures+avec+<%= data.parameters.twitter %>.+Rejoignez-moi+%21&hashtags=moinsmaismieux,energie, dataforgood" target="_blank"><i class="fab fa-twitter"></i></a>

@@ -15,21 +15,12 @@ title: Kooleko - Merci
   <div class="share">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-3 text-right">
-          <%= image_tag "fans_vermillon.png", class: "img-share" %>
-        </div>
-        <div class="col-xs-12 col-sm-9 text-left">
-          <div class="row">
-            <div class="col-xs-12">
-              <b><p></p>Aller, fais pas le rat ! Partage ce bon tuyau à tes amis :</b>
-              <p>A ton échelle individuelle, c'est déjà super d'agir, mais imagine l'impact global qu'on peut générer si on propage <i class="fas fa-share-alt"></i> tous le mouvement !</p>
-            </div>
-            <div class="col-xs-12">
-              <%= partial "html_blocs/share_bloc.html.erb" %>
-            </div>
-          </div>
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8 text-justify">
+          <b><p></p>Aller, fais pas le rat ! Partage ce bon tuyau à tes amis :</b><%= image_tag "fans_vermillon.png", class: "img-share" %>
+          <p>A ton échelle individuelle, c'est déjà super d'agir, mais imagine l'impact global qu'on peut générer si on propage tous le mouvement !</p>
         </div>
       </div>
+      <%= partial "html_blocs/share_bloc.html.erb" %>
     </div>
   </div>
 
