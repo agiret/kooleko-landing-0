@@ -72,11 +72,17 @@ section.how {
 section.apply {
   background-color: $my-sunshine;
   color: white;
-  padding: 50px;
+  padding-top: 20px;
+  text-align: center;
   h4 {
     color: white;
     text-align: center;
     font-weight: normal;
+  }
+  img {
+    text-align: center;
+    height: 150px;
+    margin: 10px;
   }
   #mc_embed_signup {
     // background-color: $my-sunshine;
@@ -127,8 +133,13 @@ section.examples {
   // }
 }
 
-section.share {
+.share {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 50px;
+  .img-share {
+    text-align: center;
+    height: 150px;
+    margin: 10px;
+  }
 }
