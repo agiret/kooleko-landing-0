@@ -92,6 +92,8 @@
     position: relative;
     left: 10%;
     #phone {
+      height: 500px;
+      width: 275px;
       position: absolute;
       left: 0px;
     }
@@ -101,8 +103,8 @@
       position: absolute;
       position: relative;
       left:60px;
-      top: 90px;
-      width: 200px;
+      top: 70px;
+      width: 185px;
       color: white;
       // background-color: rgba(252, 74, 26, 0.82);
       background-color: $my-vermillon-l;
