@@ -12,3 +12,4 @@ gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
 gem 'gibbon'
+gem 'middleman-hotjar'

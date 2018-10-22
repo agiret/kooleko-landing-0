@@ -20,3 +20,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+activate :hotjar do |hj|
+  hj.hotjar_id = '1060236' # Replace with your site's ID
+end

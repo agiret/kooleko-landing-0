@@ -39,12 +39,8 @@
     <meta name="twitter:creator" content="<%= data.parameters.twitter %>">
     <meta name="twitter:image:src" content="<%= image_path 'twitter-card-2212.jpg' %>">
 
-    <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
-
     <!-- Hotjar Tracking Code for https://www.kooleko.com -->
-    <script>
+<!--     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:1060236,hjsv:6};
@@ -53,7 +49,12 @@
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    </script> -->
+
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= favicon_tag 'images/favicon.png' %>
+    <%= hotjar_tag %>
 
   </head>
   <body>
