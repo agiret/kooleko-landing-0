@@ -42,7 +42,10 @@
           <div class="col-xs-12 col-sm-4 hidden-xs hidden-sm text-center">
             <div class="img-box">
               <div class="phone-box">
-                <%= image_tag "iphone_clean-l.png", id: "phone" %>
+                <%#= image_tag "iphone_alert.png", id: "phone" %>
+                <!-- Initial phone -->
+                <!--
+                <%#= image_tag "iphone_clean-l.png", id: "phone" %>
                 <div class="sms tri-right right-in">
                   <p>Tranquille Emile ! Ta prochaine facture EDF du 12 novembre prochain ne devrait être que de l'ordre de 28€ ; c'est une bonne nouvelle !</br>- Hugo de KOOLEKO -</p>
                 </div>
@@ -51,7 +54,40 @@
                 </div>
                 <div class="sms tri-right right-in">
                   <p>Salut, tu en es à 23€ consommé pour 42€ estimé pour ta prochaine facture du 12 janvier prochain.</br>- Hugo de KOOLEKO -</p>
-                </div>
+                </div> -->
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="6000">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/iphone_alert.png" alt="..." class="phone">
+                      <!-- <div class="carousel-caption">
+                        <h3>Caption Text</h3>
+                      </div> -->
+                    </div>
+                    <div class="item">
+                      <img src="images/iphone_messages.png" alt="..." class="phone">
+                      <!-- <div class="carousel-caption">
+                        <h3>Caption Text</h3>
+                      </div> -->
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div> <!-- Carousel -->
+
               </div>
             </div>
 
