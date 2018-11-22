@@ -79,6 +79,13 @@ section.config {
   .img-config {
     width: 400px;
   }
+  .row {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    p {
+      padding: 20px;
+    }
+  }
 }
 
 section.apply {
