@@ -71,6 +71,16 @@ section.how {
   }
 }
 
+section.config {
+  background-color: $verylight-gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  .img-config {
+    width: 400px;
+  }
+}
+
 section.apply {
   background-color: $my-sunshine;
   color: white;
