@@ -79,6 +79,9 @@ section.config {
   .img-config {
     width: 400px;
   }
+  .visible-xs .img-config {
+    width: 100%;
+  }
   .row {
     padding-top: 30px;
     padding-bottom: 20px;
